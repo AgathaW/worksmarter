@@ -1,0 +1,48 @@
+body {
+    font-family: "Trirong", serif;
+}
+
+#topnav li a:hover {
+    background-color: #dda0dd;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    color: #9b47b8;
+}
+
+#topnav .active {
+    background-color: purple;
+}
+
+#topnav {
+    overflow: hidden;
+    background-color: whitesmoke;
+}
+
+#topnav a {
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+    background-color: whitesmoke;
+    color: black;
+}
+
+footer {
+    text-align: center;
+}
